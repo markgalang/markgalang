@@ -1,6 +1,9 @@
 .social-media-icons {
   display: flex;
   max-width: 16rem;
+  @media only screen and (min-width: 1024px) {
+    max-width: 13rem;
+  }
 
   a {
     &:not(:last-of-type) {
@@ -12,4 +15,7 @@
 .social-media-icon {
   color: $color-black;
   height: 2.2rem;
+  @media only screen and (min-width: 1024px) {
+    height: 2.5rem;
+  }
 }

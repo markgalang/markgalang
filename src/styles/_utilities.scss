@@ -7,10 +7,20 @@
 
 .u-margin-y-sm {
   margin: 1rem 0;
+
+  @media only screen and (min-width: 1024px) {
+    margin: 0.5rem 0;
+  }
 }
 .u-margin-y-md {
   margin: 2rem 0;
+  @media only screen and (min-width: 1024px) {
+    margin: 1rem 0;
+  }
 }
 .u-margin-y-lg {
   margin: 4rem 0;
+  @media only screen and (min-width: 1024px) {
+    margin: 2rem 0;
+  }
 }
