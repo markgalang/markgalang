@@ -1,0 +1,15 @@
+.social-media-icons {
+  display: flex;
+  max-width: 16rem;
+
+  a {
+    &:not(:last-of-type) {
+      margin-right: auto;
+    }
+  }
+}
+
+.social-media-icon {
+  color: $color-black;
+  height: 2.2rem;
+}
