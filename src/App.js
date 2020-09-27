@@ -1,11 +1,10 @@
 import React from "react";
+import Hero from "./layout/hero";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Coming Soon...</h1>
-      </header>
+      <Hero />
     </div>
   );
 }
