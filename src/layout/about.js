@@ -4,7 +4,10 @@ const About = () => {
   return (
     <div className="about">
       <div className="u-container">
-        <h1 className="section-header">About me</h1>
+        <div className="u-flex">
+          <h1 className="section-header">About me</h1>
+        </div>
+
         <div className="about__content">
           <p className="about__paragraph">
             Hi! I’m <strong>Mark</strong>, A Software engineer based in the
