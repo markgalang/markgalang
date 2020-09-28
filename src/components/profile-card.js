@@ -19,16 +19,32 @@ const ProfileCard = () => {
         </span>{" "}
       </h2>
       <div className="social-media-icons">
-        <a href="https://www.google.com/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.google.com/"
+        >
           <Twitter className="social-media-icon" />
         </a>
-        <a href="https://www.google.com/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.google.com/"
+        >
           <Linkedin className="social-media-icon" />
         </a>
-        <a href="https://www.google.com/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.google.com/"
+        >
           <GitHub className="social-media-icon" />
         </a>
-        <a href="https://www.google.com/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.google.com/"
+        >
           <Mail className="social-media-icon" />
         </a>
       </div>

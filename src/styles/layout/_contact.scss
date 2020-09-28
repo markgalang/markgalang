@@ -1,6 +1,5 @@
 .contact {
   background-color: $color-black;
-  // min-height: 100vh;
   color: $color-white;
   padding: 3rem;
   display: flex;
@@ -14,9 +13,6 @@
   }
   @media only screen and (min-width: 1024px) {
     padding: 5rem 3rem;
-    .section-header {
-      text-align: left;
-    }
   }
 
   &__content {

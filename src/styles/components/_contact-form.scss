@@ -10,11 +10,11 @@
 
   @media only screen and (min-width: 1024px) {
     padding: 2rem 3rem;
+    min-height: 410px;
   }
   @media only screen and (min-width: 750px) {
     margin-top: 0;
     margin-right: 2rem;
-    min-height: 410px;
   }
   &__description {
     line-height: 130%;

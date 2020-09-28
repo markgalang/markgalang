@@ -19,11 +19,11 @@ const Hero = () => {
           <h1 className="primary-header">Mark Galang</h1>
 
           <p className="hero__description">
-            <span className="text-emphasize">Software Engineer </span>based in
-            the Philippines that can work both on the front end side and back
-            end side of development. My experience focuses around{" "}
+            <span className="text-emphasize">Software Engineer </span>that can
+            work both on the front end side and back end side of development. My
+            experience focuses around{" "}
             <span className="text-emphasize">Web Development</span> using
-            JavaScript as my main programming language but I am also
+            JavaScript as my main programming language and I am also
             knowledgeable with{" "}
             <span className="text-emphasize">Mobile development.</span>
             <a href="https://www.google.com/" className="hero__more">
@@ -39,16 +39,32 @@ const Hero = () => {
           </a>
 
           <div className="social-media-icons">
-            <a href="https://www.google.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/"
+            >
               <Twitter className="social-media-icon" />
             </a>
-            <a href="https://www.google.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/"
+            >
               <Linkedin className="social-media-icon" />
             </a>
-            <a href="https://www.google.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/"
+            >
               <GitHub className="social-media-icon" />
             </a>
-            <a href="https://www.google.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/"
+            >
               <Mail className="social-media-icon" />
             </a>
           </div>
