@@ -1,0 +1,35 @@
+.skill-card {
+  padding: 4rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 10px;
+  width: 230px;
+  height: 300px;
+  margin: 1rem auto;
+  position: relative;
+  background-color: $color-white;
+
+  @media only screen and (min-width: 1024px) {
+    &:nth-child(2),
+    &:nth-child(3) {
+      margin: auto;
+    }
+  }
+
+  &__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-gray;
+    color: $color-black;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__tech-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: auto;
+    max-height: 100%;
+  }
+}
