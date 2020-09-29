@@ -20,7 +20,7 @@ const Projects = () => {
     slidesToScroll: 1,
     pauseOnHover: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
     dotsClass: "button__bar",
     prevArrow: <LeftArrow className="arrows" />,
     nextArrow: <RightArrow className="arrows" />,

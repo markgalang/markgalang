@@ -27,7 +27,11 @@ const ProjectSlide = () => {
         </div>
 
         <div className="slide__information--button-container">
-          <a href="https://google.com">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.google.com/"
+          >
             <button className="button button--gold slide__information--preview-button">
               Live Preview
             </button>
