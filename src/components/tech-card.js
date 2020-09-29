@@ -12,7 +12,7 @@ const TechCard = () => {
         alt="asdasd"
         className="tech-card__image"
       />
-      <p>Javascript</p>
+      <p>JavaScript</p>
     </a>
   );
 };

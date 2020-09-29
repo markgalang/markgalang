@@ -2,8 +2,65 @@
   background-color: $color-black;
   color: $color-white;
   padding: 3rem;
-  border: 2px solid red;
   @media only screen and (min-width: 1024px) {
     padding: 5rem 3rem;
+  }
+
+  //   override slick defaults
+  .slick-arrow {
+    height: 4rem;
+    width: 4rem;
+  }
+  .slick-prev {
+    left: -4rem;
+    z-index: 10;
+    color: $color-white;
+  }
+  .slick-next {
+    right: -4rem;
+    z-index: 10;
+    color: $color-white;
+  }
+
+  .button__bar {
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+
+  .button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.9rem;
+
+    @media only screen and (min-width: 768px) {
+      margin: 0.35rem;
+    }
+  }
+
+  .button__bar li button {
+    border: none;
+    background-color: rgba($color-gray, 0.6);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+
+    @media only screen and (min-width: 768px) {
+      height: 0.75rem;
+      width: 0.75rem;
+    }
+  }
+
+  .button__bar li.slick-active button {
+    background-color: $color-white;
+  }
+
+  .button__bar li button:hover,
+  .button__bar li button:focus {
+    background-color: $color-white;
+    outline: 0;
   }
 }
