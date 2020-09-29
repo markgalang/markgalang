@@ -11,7 +11,6 @@ const Skills = () => {
             <SkillCard />
             <SkillCard />
             <SkillCard />
-            <SkillCard />
           </div>
         </div>
       </div>

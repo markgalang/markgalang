@@ -1,5 +1,4 @@
 import React from "react";
-import imageSource from "../images/logos/Javascript.png";
 const TechCard = () => {
   return (
     <a
@@ -8,7 +7,11 @@ const TechCard = () => {
       href="https://www.google.com/"
       className="tech-card"
     >
-      <img src={imageSource} alt="asd" className="tech-card__image" />
+      <img
+        src="logos/Javascript.png"
+        alt="asdasd"
+        className="tech-card__image"
+      />
       <p>Javascript</p>
     </a>
   );
