@@ -1,0 +1,9 @@
+.projects {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 3rem;
+  border: 2px solid red;
+  @media only screen and (min-width: 1024px) {
+    padding: 5rem 3rem;
+  }
+}

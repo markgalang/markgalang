@@ -25,10 +25,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
-  height: 100vh;
-  background: linear-gradient(
-    90deg,
-    rgba(74, 102, 255, 1) 0%,
-    rgba(156, 189, 255, 1) 100%
-  );
+  background-color: $color-white;
 }

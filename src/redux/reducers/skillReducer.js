@@ -1,7 +1,7 @@
 const FRONTEND = "Frontend";
-const BACKEND = "Backend";
-const DEVELOPMENT = "Development";
-const DEPLOYMET = "Deployment";
+// const BACKEND = "Backend";
+// const DEVELOPMENT = "Development";
+// const DEPLOYMET = "Deployment";
 
 export default (state = [], action) => {
   const initialData = [
