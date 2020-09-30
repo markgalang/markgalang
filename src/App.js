@@ -4,6 +4,7 @@ import Contact from "./layout/contact";
 import About from "./layout/about";
 import Skills from "./layout/skills";
 import Projects from "./layout/projects";
+import Experience from "./layout/experience";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Experience />
       <Contact />
     </div>
   );

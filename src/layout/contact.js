@@ -4,7 +4,7 @@ import ContactFrom from "../components/contact-form";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="u-container">
         <h1 className="section-header">Get in Touch</h1>
         <div className="contact__content">

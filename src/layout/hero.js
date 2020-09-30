@@ -27,13 +27,13 @@ const Hero = () => {
               JavaScript as my main programming language and I am also
               knowledgeable with{" "}
               <span className="text-emphasize">Mobile development.</span>
-              <a href="https://www.google.com/" className="hero__more">
+              <a href="#about" className="hero__more">
                 Read more
                 <ArrowRight className="more-icon" />
               </a>{" "}
             </p>
 
-            <a href="https://www.google.com/">
+            <a href="#contact">
               <button className="button button--gold u-margin-y-lg ">
                 Schedule a Chat
               </button>

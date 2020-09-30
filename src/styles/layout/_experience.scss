@@ -1,0 +1,45 @@
+.experience {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 3rem;
+  &__horizontal-tab {
+    display: block;
+    margin-bottom: 3rem; //temporary
+    // @media only screen and(min-width: 768px ) {
+    //   display: none;
+    // }
+  }
+
+  &__vertical-tab {
+    display: flex;
+  }
+
+  &__vertical-tabs {
+    margin-right: 2rem;
+  }
+}
+
+.panel {
+  background-color: $color-white;
+  color: $color-black;
+  flex: 1;
+  min-height: 20rem;
+
+  &--location-date {
+    margin-bottom: 1rem;
+  }
+
+  &--description {
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+  &__list-items {
+    margin-left: 2rem;
+  }
+  &__list-item {
+    margin-bottom: 0.5rem;
+  }
+}
