@@ -22,28 +22,28 @@ const ProfileCard = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.google.com/"
+          href="https://twitter.com/dev_markG"
         >
           <Twitter className="social-media-icon" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.google.com/"
+          href="https://www.linkedin.com/in/markggalang/"
         >
           <Linkedin className="social-media-icon" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.google.com/"
+          href="https://github.com/markgalang"
         >
           <GitHub className="social-media-icon" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.google.com/"
+          href="mailto:galangmarkg@gmail.com"
         >
           <Mail className="social-media-icon" />
         </a>

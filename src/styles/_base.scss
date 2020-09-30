@@ -26,4 +26,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
   background-color: $color-white;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }

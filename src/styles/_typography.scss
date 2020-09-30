@@ -9,6 +9,7 @@
 .primary-header {
   font-size: 4.5rem;
   margin: 1rem 0;
+  font-weight: 900;
   @media only screen and (min-width: 1024px) {
     font-size: 3.5rem;
   }
@@ -16,6 +17,7 @@
 
 .secondary-header {
   font-size: 3rem;
+  font-weight: 900;
   @media only screen and (min-width: 1024px) {
     font-size: 2rem;
   }

@@ -7,18 +7,21 @@ import About from "./layout/about";
 import Skills from "./layout/skills";
 import Projects from "./layout/projects";
 import Experience from "./layout/experience";
+import TrackVisibility from "react-on-screen";
 
 function App() {
   return (
     <div className="App">
       <Menubar />
       <Sidebar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <TrackVisibility>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </TrackVisibility>
     </div>
   );
 }

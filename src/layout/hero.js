@@ -2,7 +2,7 @@ import React from "react";
 import { Linkedin, Twitter, GitHub, Mail, ArrowRight } from "react-feather";
 import PortraitSource from "../images/mark-portrait.png";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div id="home" className="hero">
       <div className="u-container">
@@ -43,28 +43,28 @@ const Hero = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.google.com/"
+                href="https://twitter.com/dev_markG"
               >
                 <Twitter className="social-media-icon" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.google.com/"
+                href="https://www.linkedin.com/in/markggalang/"
               >
                 <Linkedin className="social-media-icon" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.google.com/"
+                href="https://github.com/markgalang"
               >
                 <GitHub className="social-media-icon" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.google.com/"
+                href="mailto:galangmarkg@gmail.com"
               >
                 <Mail className="social-media-icon" />
               </a>
