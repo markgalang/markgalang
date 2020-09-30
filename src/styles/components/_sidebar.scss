@@ -5,6 +5,11 @@
   height: 100%;
   padding: 0 1rem;
 
+  display: none;
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+
   &__brand {
     display: block;
     color: $color-white;
