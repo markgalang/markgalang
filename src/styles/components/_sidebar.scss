@@ -4,26 +4,33 @@
   position: fixed;
   height: 100%;
   padding: 0 1rem;
-
   display: none;
-  @media only screen and (min-width: 768px) {
+
+  @media only screen and (min-width: 769px) {
     display: block;
+  }
+
+  &__item,
+  &__brand {
+    &:link,
+    &:visited,
+    &:hover {
+      color: $color-white;
+      text-align: center;
+      display: block;
+      margin-top: 2.5rem;
+      text-decoration: none;
+      font-size: 0.7rem;
+    }
+
+    &:hover {
+      color: $color-gold;
+    }
   }
 
   &__brand {
-    display: block;
-    color: $color-white;
-    margin-top: 1.5rem;
-    font-size: 2.25rem;
+    margin-top: 1.5rem !important;
+    font-size: 2.25rem !important;
     font-weight: 900;
-    text-decoration: none;
-  }
-  &__item {
-    color: $color-white;
-    text-align: center;
-    display: block;
-    margin-top: 2.5rem;
-    text-decoration: none;
-    font-size: 0.7rem;
   }
 }

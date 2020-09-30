@@ -5,7 +5,7 @@ import TabPanel from "@material-ui/lab/TabPanel";
 import TabContext from "@material-ui/lab/TabContext";
 
 const Experience = () => {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState("0");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -18,12 +18,12 @@ const Experience = () => {
         <div className="experience__horizontal-tab">
           <TabContext value={value}>
             <Tabs value={value} onChange={handleChange}>
-              <Tab label="RMCordoviz Inc." value={0} />
-              <Tab label="Twist Resources Inc." value={1} />
-              <Tab label="Company 3" value={2} />
+              <Tab label="RMCordoviz Inc." value={"0"} />
+              <Tab label="Twist Resources Inc." value={"1"} />
+              <Tab label="Company 3" value={"2"} />
             </Tabs>
 
-            <TabPanel value={0} className="panel">
+            <TabPanel value={"0"} className="panel">
               <h2 className="panel--title">RMCordoviz Inc.</h2>
               <p className="panel--location-date">
                 Las Vegas, Nevada | Mar 2020 - Sep 2020
@@ -57,10 +57,10 @@ const Experience = () => {
                 </li>
               </ul>
             </TabPanel>
-            <TabPanel value={1} className="panel">
+            <TabPanel value={"1"} className="panel">
               Item Two
             </TabPanel>
-            <TabPanel value={2} className="panel">
+            <TabPanel value={"2"} className="panel">
               Item Three
             </TabPanel>
           </TabContext>
@@ -78,14 +78,14 @@ const Experience = () => {
             >
               <Tab
                 label="RMCordoviz Inc."
-                value={0}
+                value={"0"}
                 aria-controls={`vertical-tabpanel-${0}`}
               />
-              <Tab label="Twist Resources Inc." value={1} />
+              <Tab label="Twist Resources Inc." value={"1"} />
               <Tab label="Company 3" value={2} />
             </Tabs>
 
-            <TabPanel value={0} className="panel">
+            <TabPanel value={"0"} className="panel">
               <h2 className="panel--title">RMCordoviz Inc.</h2>
               <p className="panel--location-date">
                 Las Vegas, Nevada | Mar 2020 - Sep 2020
@@ -119,10 +119,10 @@ const Experience = () => {
                 </li>
               </ul>
             </TabPanel>
-            <TabPanel value={1} className="panel">
+            <TabPanel value={"1"} className="panel">
               Item Two
             </TabPanel>
-            <TabPanel value={2} className="panel">
+            <TabPanel value={"2"} className="panel">
               Item Three
             </TabPanel>
           </TabContext>

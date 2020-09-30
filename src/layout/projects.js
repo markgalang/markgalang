@@ -7,10 +7,12 @@ import { ChevronLeft, ChevronRight } from "react-feather";
 
 const Projects = () => {
   const LeftArrow = (props) => {
-    return <ChevronLeft {...props} />;
+    const { currentSlide, slideCount, ...rest } = props;
+    return <ChevronLeft {...rest} />;
   };
   const RightArrow = (props) => {
-    return <ChevronRight {...props} />;
+    const { currentSlide, slideCount, ...rest } = props;
+    return <ChevronRight {...rest} />;
   };
   const settings = {
     dots: true,

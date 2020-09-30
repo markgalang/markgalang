@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, User, Settings, Box, Mail } from "react-feather";
+import { Home, User, Settings, Box, Mail, Code } from "react-feather";
 
 const Sidebar = () => {
   return (
@@ -22,6 +22,10 @@ const Sidebar = () => {
       <a href="#projects" className="sidebar__item">
         <Box />
         <p>Projects</p>
+      </a>
+      <a href="#experience" className="sidebar__item">
+        <Code />
+        <p>Experience</p>
       </a>
       <a href="#contact" className="sidebar__item">
         <Mail />
