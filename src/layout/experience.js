@@ -12,7 +12,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <div className="u-container">
         <h1 className="section-header">Experience</h1>
         <div className="experience__horizontal-tab">

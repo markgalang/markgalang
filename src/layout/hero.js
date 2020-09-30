@@ -4,7 +4,7 @@ import PortraitSource from "../images/mark-portrait.png";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <div className="u-container">
         <div className="hero__portrait-container">
           <img

@@ -3,7 +3,7 @@ import SkillCard from "../components/skill-card";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <div className="u-container">
         <div className="skills__content">
           <h1 className="section-header">Skills</h1>

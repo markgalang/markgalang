@@ -1,4 +1,5 @@
 import React from "react";
+import Sidebar from "./components/sidebar";
 import Hero from "./layout/hero";
 import Contact from "./layout/contact";
 import About from "./layout/about";
@@ -9,6 +10,7 @@ import Experience from "./layout/experience";
 function App() {
   return (
     <div className="App">
+      <Sidebar />
       <Hero />
       <About />
       <Skills />
