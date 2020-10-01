@@ -2,22 +2,25 @@
   background-color: $color-black;
   color: $color-white;
   padding: 3rem;
-  &__horizontal-tab {
-    display: block;
-    @media only screen and(min-width: 768px ) {
-      display: none;
-    }
-  }
 
-  &__vertical-tab {
-    display: none;
+  &__content {
     @media only screen and(min-width: 768px ) {
       display: flex;
     }
   }
+  &__horizontal-tab {
+    display: block;
+    @media only screen and(min-width: 768px ) {
+      display: none !important;
+    }
+  }
 
-  &__vertical-tabs {
-    margin-right: 2rem;
+  &__vertical-tab {
+    display: none !important;
+    @media only screen and(min-width: 768px ) {
+      display: flex !important;
+      margin-right: 2rem;
+    }
   }
 }
 
