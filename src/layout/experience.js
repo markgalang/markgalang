@@ -32,9 +32,9 @@ const Experience = () => {
                 services in Web Development, Game Development, Business
                 Coaching, etc.{" "}
               </p>
-              <h3 className="panel__header">
+              <h4 className="panel__header">
                 Achievements / Work Description:
-              </h3>
+              </h4>
               <ul className="panel__list-items">
                 <li className="panel__list-item">
                   accumsan lacus vel facilisis volutpat est velit egestas dui id
@@ -89,9 +89,9 @@ const Experience = () => {
                 services in Web Development, Game Development, Business
                 Coaching, etc.{" "}
               </p>
-              <h3 className="panel__header">
+              <h4 className="panel__header">
                 Achievements / Work Description:
-              </h3>
+              </h4>
               <ul className="panel__list-items">
                 <li className="panel__list-item">
                   accumsan lacus vel facilisis volutpat est velit egestas dui id
