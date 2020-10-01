@@ -1,36 +1,80 @@
 import React from "react";
 import { Home, User, Settings, Box, Mail, Code } from "react-feather";
+import { Link } from "react-scroll";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <a href="/#" className="sidebar__brand">
-        MG
-      </a>
-      <a href="/#" className="sidebar__item">
+      <Link to="home" smooth={true} duration={500} className="sidebar__brand">
+        <p>MG</p>
+      </Link>
+
+      <Link
+        activeClass="sidebar__active"
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <Home />
         <p>Home</p>
-      </a>
-      <a href="#about" className="sidebar__item">
+      </Link>
+      <Link
+        activeClass="sidebar__active"
+        to="about"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <User />
         <p>Me</p>
-      </a>
-      <a href="#skills" className="sidebar__item">
+      </Link>
+      <Link
+        activeClass="sidebar__active"
+        to="skills"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <Settings />
         <p>Skills</p>
-      </a>
-      <a href="#projects" className="sidebar__item">
+      </Link>
+      <Link
+        activeClass="sidebar__active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <Box />
         <p>Projects</p>
-      </a>
-      <a href="#experience" className="sidebar__item">
+      </Link>
+      <Link
+        activeClass="sidebar__active"
+        to="experience"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <Code />
         <p>Experience</p>
-      </a>
-      <a href="#contact" className="sidebar__item">
+      </Link>
+      <Link
+        activeClass="sidebar__active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="sidebar__item"
+      >
         <Mail />
         <p>Contact</p>
-      </a>
+      </Link>
     </div>
   );
 };
