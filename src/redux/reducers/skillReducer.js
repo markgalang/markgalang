@@ -109,7 +109,6 @@ export default (state = [], action) => {
           logo: "logos/Springboot.png",
           link: "https://spring.io",
         },
-
         {
           name: "MongoDB",
           logo: "logos/MongoDB.png",

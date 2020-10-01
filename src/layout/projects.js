@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProjectSlide from "../components/project-slide";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import { connect } from "react-redux";
 
-const Projects = () => {
+const Projects = (props) => {
   const LeftArrow = (props) => {
     const { currentSlide, slideCount, ...rest } = props;
     return <ChevronLeft {...rest} />;
@@ -28,17 +29,23 @@ const Projects = () => {
     nextArrow: <RightArrow className="arrows" />,
   };
 
+  const { projects } = props;
+
+  const projectMarkup = projects.map((project) => (
+    <ProjectSlide key={project.title} project={project} />
+  ));
+
   return (
     <div id="projects" className="projects">
       <div className="u-container">
         <h1 className="section-header">Project</h1>
-        <Slider {...settings}>
-          <ProjectSlide />
-          <ProjectSlide />
-        </Slider>
+        <Slider {...settings}>{projectMarkup}</Slider>
       </div>
     </div>
   );
 };
 
-export default Projects;
+const mapStateToProps = (state) => {
+  return { projects: state.projects };
+};
+export default connect(mapStateToProps)(Projects);
