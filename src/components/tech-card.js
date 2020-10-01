@@ -1,18 +1,15 @@
 import React from "react";
-const TechCard = () => {
+const TechCard = (props) => {
+  const { name, link, logo } = props;
   return (
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="https://www.google.com/"
+      href={link}
       className="tech-card"
     >
-      <img
-        src="logos/Javascript.png"
-        alt="asdasd"
-        className="tech-card__image"
-      />
-      <p>JavaScript</p>
+      <img src={logo} alt={name} className="tech-card__image" />
+      <p>{name}</p>
     </a>
   );
 };

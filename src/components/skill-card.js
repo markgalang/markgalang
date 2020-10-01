@@ -1,21 +1,18 @@
 import React from "react";
 import TechCard from "./tech-card";
-import { connect } from "react-redux";
 const SkillCard = (props) => {
-  console.log(props.skills);
+  const { skills, category } = props;
+
+  const techCardsMarkup = skills.map(({ name, link, logo }, index) => (
+    <TechCard key={logo + index} name={name} link={link} logo={logo} />
+  ));
+
   return (
     <div className="skill-card">
-      <div className="skill-card__header">Title</div>
-      <div className="skill-card__tech-cards">
-        <TechCard />
-        <TechCard />
-        <TechCard />
-      </div>
+      <div className="skill-card__header">{category}</div>
+      <div className="skill-card__tech-cards">{techCardsMarkup}</div>
     </div>
   );
 };
 
-const mapStateToProps = (state) => {
-  return { skills: state.skills };
-};
-export default connect(mapStateToProps)(SkillCard);
+export default SkillCard;
