@@ -20,7 +20,6 @@ const Experience = () => {
             <Tabs value={value} onChange={handleChange}>
               <Tab label="RMCordoviz Inc." value={"0"} />
               <Tab label="Twist Resources Inc." value={"1"} />
-              <Tab label="Company 3" value={"2"} />
             </Tabs>
 
             <TabPanel value={"0"} className="panel">
@@ -60,12 +59,8 @@ const Experience = () => {
             <TabPanel value={"1"} className="panel">
               Item Two
             </TabPanel>
-            <TabPanel value={"2"} className="panel">
-              Item Three
-            </TabPanel>
           </TabContext>
         </div>
-        <h1 className="section-header">Experience</h1>
         <div className="experience__vertical-tab">
           <TabContext value={value}>
             <Tabs
@@ -82,7 +77,6 @@ const Experience = () => {
                 aria-controls={`vertical-tabpanel-${0}`}
               />
               <Tab label="Twist Resources Inc." value={"1"} />
-              <Tab label="Company 3" value={2} />
             </Tabs>
 
             <TabPanel value={"0"} className="panel">
@@ -121,9 +115,6 @@ const Experience = () => {
             </TabPanel>
             <TabPanel value={"1"} className="panel">
               Item Two
-            </TabPanel>
-            <TabPanel value={"2"} className="panel">
-              Item Three
             </TabPanel>
           </TabContext>
         </div>

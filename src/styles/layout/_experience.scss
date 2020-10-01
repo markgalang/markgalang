@@ -4,14 +4,16 @@
   padding: 3rem;
   &__horizontal-tab {
     display: block;
-    margin-bottom: 3rem; //temporary
-    // @media only screen and(min-width: 768px ) {
-    //   display: none;
-    // }
+    @media only screen and(min-width: 768px ) {
+      display: none;
+    }
   }
 
   &__vertical-tab {
-    display: flex;
+    display: none;
+    @media only screen and(min-width: 768px ) {
+      display: flex;
+    }
   }
 
   &__vertical-tabs {
