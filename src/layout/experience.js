@@ -17,7 +17,7 @@ const Experience = (props) => {
     return (
       <Tab
         key={index}
-        label={company.name}
+        label={company.year}
         value={`${index}`}
         className="experience__tab"
       />

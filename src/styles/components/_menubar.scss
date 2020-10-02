@@ -6,7 +6,7 @@ body .menubar {
   display: flex;
   background-color: $color-black-2;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1025px) {
     display: none;
   }
 

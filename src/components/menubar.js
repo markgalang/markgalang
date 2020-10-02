@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const MenuBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="menubar">
+    <Navbar collapseOnSelect expand="xl" variant="dark" className="menubar">
       <Navbar.Brand as="span" href="#home">
         <Link to="home" smooth={true} duration={500}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">

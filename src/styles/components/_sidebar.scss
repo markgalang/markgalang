@@ -1,12 +1,12 @@
 .sidebar {
   background-color: $color-black-2;
-  z-index: 1;
+  z-index: 5000;
   position: fixed;
   height: 100%;
   padding: 0 1rem;
   display: none;
 
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 1025px) {
     display: block;
   }
 

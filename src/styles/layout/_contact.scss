@@ -10,6 +10,10 @@
     height: 100vh;
   }
 
+  @media only screen and (min-width: 768px) {
+    padding: 3rem 5rem;
+  }
+
   &__content {
     display: flex;
     flex-direction: column-reverse;

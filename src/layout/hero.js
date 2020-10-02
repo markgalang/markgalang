@@ -15,71 +15,69 @@ const Hero = (props) => {
           />
         </div>
 
-        <div className="u-container">
-          <div className="hero__text-container">
-            <h2 className="secondary-header">Hello, I'm</h2>
-            <h1 className="primary-header">Mark Galang</h1>
+        <div className="hero__text-container">
+          <h2 className="secondary-header">Hello, I'm</h2>
+          <h1 className="primary-header">Mark Galang</h1>
 
-            <p className="hero__description">
-              <span className="text-emphasize">Software Engineer </span>that can
-              work both on the front end side and back end side of development.
-              My experience focuses around{" "}
-              <span className="text-emphasize">Web Development</span> using
-              JavaScript as my main programming language and I am also
-              knowledgeable with{" "}
-              <span className="text-emphasize">Mobile development.</span>
-              <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                className="hero__more"
-              >
-                Read more
-                <ArrowRight className="more-icon" />
-              </Link>
-            </p>
-
+          <p className="hero__description">
+            <span className="text-emphasize">Software Engineer </span>that can
+            work both on the front end side and back end side of development. My
+            experience focuses around{" "}
+            <span className="text-emphasize">Web Development</span> using
+            JavaScript as my main programming language and I am also
+            knowledgeable with{" "}
+            <span className="text-emphasize">Mobile development.</span>
             <Link
-              to="contact"
+              to="about"
               smooth={true}
               duration={500}
               className="hero__more"
             >
-              <button className="button button--gold u-margin-y-lg ">
-                Schedule a Chat
-              </button>
+              Read more
+              <ArrowRight className="more-icon" />
             </Link>
+          </p>
 
-            <div className="social-media-icons">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://twitter.com/dev_markG"
-              >
-                <Twitter className="social-media-icon" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/markggalang/"
-              >
-                <Linkedin className="social-media-icon" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/markgalang"
-              >
-                <GitHub className="social-media-icon" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:galangmarkg@gmail.com"
-              >
-                <Mail className="social-media-icon" />
-              </a>
-            </div>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="hero__more"
+          >
+            <button className="button button--gold u-margin-y-lg ">
+              Schedule a Chat
+            </button>
+          </Link>
+
+          <div className="social-media-icons">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/dev_markG"
+            >
+              <Twitter className="social-media-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/markggalang/"
+            >
+              <Linkedin className="social-media-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/markgalang"
+            >
+              <GitHub className="social-media-icon" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:galangmarkg@gmail.com"
+            >
+              <Mail className="social-media-icon" />
+            </a>
           </div>
         </div>
       </div>

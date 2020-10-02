@@ -72,7 +72,7 @@ export default () => {
       description:
         "A web application that mimics the feature of twitter while having a different look. Built using the Redux Library for state management.",
       link: "https://social-ape-47363.firebaseapp.com/",
-      keyFeatures: ["Responsive Website"],
+      keyFeatures: ["Realtime Update"],
       techStack: [
         {
           name: "NodeJS",
