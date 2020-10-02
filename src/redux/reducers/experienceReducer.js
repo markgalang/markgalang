@@ -10,7 +10,7 @@ export default () => {
         "Design mockups using Figma.",
         "Develop mockups using ReactJs.",
         "Develop APIs for Web Applications.",
-        "Design and develop Email Templats.",
+        "Design and develop Email Templates.",
         "Manage servers",
       ],
     },
