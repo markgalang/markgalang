@@ -5,13 +5,22 @@
   outline: none;
   border: none;
   cursor: pointer;
+  transform: scale(1);
+  transition: all 0.4s ease;
 
   @media only screen and (min-width: 1024px) {
     padding: 0.8rem 2.5rem;
     font-size: 1.2rem;
   }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0.8rem rgba($color-black, 1);
+  }
+
   &:focus {
     outline: none;
+    transform: scale(0.95);
   }
 
   &--gold {

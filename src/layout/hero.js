@@ -1,6 +1,7 @@
 import React from "react";
 import { Linkedin, Twitter, GitHub, Mail, ArrowRight } from "react-feather";
 import PortraitSource from "../images/mark-portrait.png";
+import { Link } from "react-scroll";
 
 const Hero = (props) => {
   return (
@@ -27,17 +28,27 @@ const Hero = (props) => {
               JavaScript as my main programming language and I am also
               knowledgeable with{" "}
               <span className="text-emphasize">Mobile development.</span>
-              <a href="#about" className="hero__more">
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="hero__more"
+              >
                 Read more
                 <ArrowRight className="more-icon" />
-              </a>{" "}
+              </Link>
             </p>
 
-            <a href="#contact">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="hero__more"
+            >
               <button className="button button--gold u-margin-y-lg ">
                 Schedule a Chat
               </button>
-            </a>
+            </Link>
 
             <div className="social-media-icons">
               <a

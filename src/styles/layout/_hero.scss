@@ -8,6 +8,7 @@
   align-items: flex-start;
   font-size: 1.2rem;
   position: relative;
+
   @media only screen and (min-width: 1024px) {
     font-size: 1rem;
   }
@@ -51,6 +52,12 @@
     text-decoration: none;
     color: $color-black;
     width: fit-content;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: inherit;
+    }
 
     .more-icon {
       transform: scale(1) translateX(0);

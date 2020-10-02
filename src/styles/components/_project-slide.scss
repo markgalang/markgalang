@@ -2,10 +2,13 @@
   color: $color-black;
   background-color: $color-white;
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   @media only screen and (min-width: 768px) {
     display: flex;
     padding: 1rem 2rem;
+  }
+  &:hover {
+    cursor: grab;
   }
 
   &__preview {
@@ -49,10 +52,9 @@
       }
     }
     &--preview-button {
-      font-size: inherit;
+      font-size: inherit !important;
       margin: 1rem 0;
-      padding-left: 6rem;
-      padding-right: 6rem;
+      padding: 0.5rem 4rem;
     }
   }
 }

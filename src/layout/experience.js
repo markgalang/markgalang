@@ -14,7 +14,14 @@ const Experience = (props) => {
 
   const { experience } = props;
   const tabsMarkup = experience.map((company, index) => {
-    return <Tab key={index} label={company.name} value={`${index}`} />;
+    return (
+      <Tab
+        key={index}
+        label={company.name}
+        value={`${index}`}
+        className="experience__tab"
+      />
+    );
   });
 
   const experiencePanelsMarkup = experience.map((company, index) => (

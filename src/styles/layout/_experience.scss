@@ -22,6 +22,24 @@
       margin-right: 2rem;
     }
   }
+
+  &__tab.Mui-selected {
+    border-bottom: 2px solid $color-gold;
+    background-color: rgba($color-white, 0.1);
+    @media only screen and(min-width: 768px ) {
+      border-bottom: none;
+      border-right: 2px solid $color-gold;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3.MuiTabs-indicator.PrivateTabIndicator-vertical-4,
+  .PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3.MuiTabs-indicator {
+    display: none !important;
+  }
 }
 
 .panel {
