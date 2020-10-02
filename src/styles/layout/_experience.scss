@@ -36,9 +36,9 @@
     }
   }
 
-  .PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3.MuiTabs-indicator.PrivateTabIndicator-vertical-4,
-  .PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3.MuiTabs-indicator {
+  .MuiTabs-indicator {
     display: none !important;
+    border: 10px solid red;
   }
 }
 
