@@ -23,6 +23,11 @@
     right: 0;
     max-width: 200px;
     overflow: hidden;
+    opacity: 0;
+    animation: hero__image__moveInRight 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
     @media only screen and (min-width: 850px) {
       max-width: 25rem;
     }
@@ -44,6 +49,10 @@
   &__text-container {
     max-width: 525px;
     width: 100%;
+    opacity: 0;
+    animation: hero__moveInLeft 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
   }
 
   &__description {

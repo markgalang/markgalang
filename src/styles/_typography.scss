@@ -29,6 +29,7 @@
   justify-self: center;
   margin-bottom: 2.5rem;
   font-weight: 900;
+  animation: moveInTop 0.8s;
 
   @media only screen and (min-width: 750px) {
     font-size: 2.5rem;
@@ -43,6 +44,7 @@
     width: 4rem;
     padding-top: 5px;
     border-bottom: 0.4rem solid $color-white;
+    animation: moveInLeft 1s;
   }
 }
 
