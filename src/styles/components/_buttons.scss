@@ -27,4 +27,12 @@
     background-color: $color-gold;
     color: $color-white;
   }
+
+  &--loading {
+    filter: brightness(80%);
+
+    &:hover {
+      cursor: progress;
+    }
+  }
 }
