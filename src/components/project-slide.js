@@ -1,9 +1,15 @@
 import React from "react";
-import ProjectPreview from "../images/project-preview.png";
 import TechCard from "../components/tech-card";
 
 const ProjectSlide = (props) => {
-  const { title, description, link, keyFeatures, techStack } = props.project;
+  const {
+    title,
+    description,
+    link,
+    keyFeatures,
+    techStack,
+    preview,
+  } = props.project;
 
   const keyFeaturesStringMarkup = keyFeatures.join(", ");
   const teckStackMarkup = techStack.map(({ name, link, logo }, index) => (
@@ -11,11 +17,7 @@ const ProjectSlide = (props) => {
   ));
   return (
     <div className="slide">
-      <img
-        src={ProjectPreview}
-        alt="Project Preview"
-        className="slide__preview"
-      />
+      <img src={preview} alt="Project Preview" className="slide__preview" />
       <div className="slide__information">
         <h2 className="slide__information--title">{title}</h2>
         <p className="slide__information--description">{description}</p>
