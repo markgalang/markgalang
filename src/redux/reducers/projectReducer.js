@@ -54,7 +54,7 @@ export default () => {
       title: "iPark: Online App for parking reservation",
       description:
         "A Parking management system that can handle parking reservations and can be used for monitoring the current status of the parking facility. Booking a parking spot in advance is made possible by paying for the reservation fee using an online payment integrated through the said system.",
-      link: "https://ipark.netlify.app/login",
+      link: "https://ipark-app.netlify.app",
       preview: "previews/iPark-preview.png",
       keyFeatures: ["Cashless Payment", "License Plate Recognition"],
       techStack: [
