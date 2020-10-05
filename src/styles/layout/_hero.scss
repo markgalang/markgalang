@@ -19,26 +19,29 @@
   &__portrait-container {
     display: block;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    max-width: 200px;
+    bottom: 0rem;
+    right: 0rem;
+    max-width: 20rem;
     overflow: hidden;
     opacity: 0;
     animation: hero__image__moveInRight 1s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
 
+    @media only screen and (min-width: 700px) {
+      max-width: 17rem;
+    }
     @media only screen and (min-width: 850px) {
       max-width: 25rem;
     }
 
     @media only screen and (min-width: 1024px) {
-      max-width: 35rem;
+      max-width: 30rem;
       right: 0rem;
     }
     @media only screen and (min-width: 1400px) {
       max-width: 35rem;
-      right: 5rem;
+      right: 10rem;
     }
   }
 

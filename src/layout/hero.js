@@ -1,15 +1,20 @@
 import React from "react";
 import { Linkedin, Twitter, GitHub, Mail, ArrowRight } from "react-feather";
-import PortraitSource from "../images/mark-portrait.png";
+// import PortraitSource from "../images/mark-portrait.png";
+import Image1 from "../images/mark-casual-1.png";
+import Image2 from "../images/mark-casual-2.png";
+import Image3 from "../images/mark-casual-3.png";
 import { Link } from "react-scroll";
 
 const Hero = (props) => {
+  const ImageArray = [Image1, Image2, Image3];
+  const ImageSoure = ImageArray[Math.floor(Math.random() * ImageArray.length)];
   return (
     <div id="home" className="hero">
       <div className="u-container">
         <div className="hero__portrait-container">
           <img
-            src={PortraitSource}
+            src={ImageSoure}
             alt="Mark Galang (Software Engineer)"
             className="hero__portrait"
           />
