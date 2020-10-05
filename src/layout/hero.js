@@ -1,9 +1,9 @@
 import React from "react";
 import { Linkedin, Twitter, GitHub, Mail, ArrowRight } from "react-feather";
 // import PortraitSource from "../images/mark-portrait.png";
-import Image1 from "../images/mark-casual-1.png";
-import Image2 from "../images/mark-casual-2.png";
-import Image3 from "../images/mark-casual-3.png";
+import Image1 from "../images/mark-casual-1.jpg";
+import Image2 from "../images/mark-casual-2.jpg";
+import Image3 from "../images/mark-casual-3.jpg";
 import { Link } from "react-scroll";
 
 const Hero = (props) => {
