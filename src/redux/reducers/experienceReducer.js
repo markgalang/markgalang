@@ -5,7 +5,7 @@ export default () => {
       description:
         "A business consulting company based in the Las Vegas that offers services in Web Development, Game Development, Business Coaching, etc.",
       location: "Las Vegas, Nevada (Remote)",
-      date: "Mar 2020 - Sep 2020",
+      date: "Mar 2020 - Oct 2020",
       year: "2020",
       responsibilities: [
         "Design mockups using Figma.",
