@@ -29,7 +29,7 @@ export default () => {
       title: "RMCordoviz Website",
       description:
         "The official Company Website of RMCordoviz Inc., That gives information on what RMCordoviz has to offer. With the capability  of sending email requests for ebooks and inquiries with just one click",
-      link: "https://rmcordoviz.com/",
+      // link: "https://rmcordoviz.com/",
       preview: "previews/RMC-preview.png",
       keyFeatures: ["Responsive Website"],
       techStack: [
@@ -54,7 +54,7 @@ export default () => {
       title: "iPark: Online App for parking reservation",
       description:
         "A Parking management system that can handle parking reservations and can be used for monitoring the current status of the parking facility. Booking a parking spot in advance is made possible by paying for the reservation fee using an online payment integrated through the said system.",
-      link: "https://ipark-app.netlify.app",
+      // link: "https://ipark-app.netlify.app",
       preview: "previews/iPark-preview.png",
       keyFeatures: ["Cashless Payment", "License Plate Recognition"],
       techStack: [
@@ -74,7 +74,7 @@ export default () => {
       title: "Social Ape",
       description:
         "A web application that mimics the feature of twitter while having a different look. Built using the Redux Library for state management.",
-      link: "https://social-ape-47363.firebaseapp.com/",
+      // link: "https://social-ape-47363.firebaseapp.com/",
       preview: "previews/Social-ape-preview.png",
       keyFeatures: ["Realtime Update"],
       techStack: [
