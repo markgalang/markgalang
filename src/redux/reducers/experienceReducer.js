@@ -1,6 +1,18 @@
 export default () => {
   const initialData = [
     {
+      name: "Twist Resources Inc.",
+      description:
+        "A software company based in the Philippines that is associated with ToolTwist. TwistResources specialize in high-performance sites and applications optimized for the web and mobile.",
+      location: "Pampanga, Philippines",
+      date: "Feb 2021 - Present",
+      year: "2021",
+      responsibilities: [
+        "Convert mockups to Responsive Websites",
+        "API Integration",
+      ],
+    },
+    {
       name: "RMCordoviz Inc.",
       description:
         "A business consulting company based in the Las Vegas that offers services in Web Development, Game Development, Business Coaching, etc.",
