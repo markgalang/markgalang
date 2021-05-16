@@ -25,12 +25,10 @@ const Hero = (props) => {
           <h1 className="primary-header">Mark Galang</h1>
 
           <p className="hero__description">
-            <span className="text-emphasize">Software Engineer </span>that can
-            work both on the front end side and back end side of development. My
-            experience focuses around{" "}
-            <span className="text-emphasize">Web Development</span> using
-            JavaScript as my main programming language and I am also
-            knowledgeable with{" "}
+            <span className="text-emphasize">Software Engineer </span>that is
+            proficient both on the front end side and back end side of
+            development. I mainly built things for the{" "}
+            <span className="text-emphasize">Web</span> but I am also capable in{" "}
             <span className="text-emphasize">Mobile development.</span>
             <Link
               to="about"
