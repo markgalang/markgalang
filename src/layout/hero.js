@@ -7,7 +7,7 @@ import Image3 from "../images/mark-casual-3.jpg";
 import { Link } from "react-scroll";
 
 const Hero = (props) => {
-  const ImageArray = [Image1, Image2, Image3];
+  const ImageArray = [Image3];
   const ImageSoure = ImageArray[Math.floor(Math.random() * ImageArray.length)];
   return (
     <div id="home" className="hero">

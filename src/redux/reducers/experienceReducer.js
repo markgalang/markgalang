@@ -8,8 +8,11 @@ export default () => {
       date: "Feb 2021 - Present",
       year: "2021",
       responsibilities: [
+        "Technical Discussions",
+        "Participate/Facilitate Scrum Events",
         "Convert mockups to Responsive Websites",
         "API Integration",
+        "Test Driven Development",
       ],
     },
     {
