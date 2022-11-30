@@ -8,8 +8,8 @@ const About = () => {
 
         <div className="about__content">
           <p className="about__paragraph">
-            Hi! I’m <strong>Mark</strong>, A Software engineer based in the
-            Philippines.
+            Hi! I’m <strong>Mark</strong>, A Software engineer based in New
+            York, USA.
           </p>
 
           <p className="about__paragraph">

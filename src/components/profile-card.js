@@ -13,9 +13,9 @@ const ProfileCard = () => {
       <h1 className="profile-card__name">Mark Galang</h1>
       <h1 className="profile-card__position">Software Engineer</h1>
       <h2 className="profile-card__location">
-        Philippines{" "}
+        New York, USA{" "}
         <span role="img" aria-label="location flag">
-          🇵🇭
+          🇺🇸
         </span>{" "}
       </h2>
       <div className="social-media-icons">

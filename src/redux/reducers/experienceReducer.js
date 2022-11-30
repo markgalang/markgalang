@@ -1,6 +1,20 @@
 export default () => {
   const initialData = [
     {
+      name: "Philippine Digital Asset Exchange (PDAX)",
+      description:
+        "PDAX is the Philippine's homegrown cryptocurrency exchange that empowers Filipinos to trade cryptocurrencies backed with dedicated local support.",
+      location: "Philippines (Remote) ",
+      date: "April 2022 - Present",
+      year: "2022",
+      responsibilities: [
+        "Design and Develop Microservices using NodeJs.",
+        "Design and Develop SaaS.",
+        "Maintain an AWS environment to make sure that all environments are running.",
+        "Participate and Facilitate Scrum Events.",
+      ],
+    },
+    {
       name: "Twist Resources Inc.",
       description:
         "A software company based in the Philippines that is associated with ToolTwist. TwistResources specialize in high-performance sites and applications optimized for the web and mobile.",
@@ -8,11 +22,10 @@ export default () => {
       date: "Feb 2021 - Present",
       year: "2021",
       responsibilities: [
-        "Technical Discussions",
-        "Participate/Facilitate Scrum Events",
-        "Convert mockups to Responsive Websites",
-        "API Integration",
-        "Test Driven Development",
+        "Developed API with NodeJs and integrated third-party APIs.",
+        "API Integrations to ReactJs Web Applications.",
+        "High-level technical discussions.",
+        "Participate and Facilitate Scrum Events.",
       ],
     },
     {
@@ -23,11 +36,11 @@ export default () => {
       date: "Mar 2020 - Oct 2020",
       year: "2020",
       responsibilities: [
-        "Design mockups using Figma.",
-        "Develop mockups using ReactJs.",
-        "Develop APIs for Web Applications.",
+        "Engineered a Web Application specifically for monitoring employees' attendance and workload.",
+        "Developed API using NodeJs and MongoDB.",
+        "API Integrations to ReactJs Web Applications.",
         "Design and develop Email Templates.",
-        "Manage servers",
+        "Manage Remote Server",
       ],
     },
     {
