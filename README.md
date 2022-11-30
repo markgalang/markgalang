@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center">Hi 👋, I'm Mark</h1>
-  <p align="center">👨🏻‍💻 Software Engineer | Philippines 🇵🇭 </p>
+  <p align="center">👨🏻‍💻 Software Engineer | New York 🇺🇸 </p>
  <p align="center">💻 All of my projects are available at <a target="_blank" rel="noopener noreferrer" href="https://markgalang.netlify.app">My Website </a></p>
 
  <p align="center" >📫 How to reach me <strong><a href="mailto:galangmarkg@gmail.com">galangmarkg@gmail.com</a></strong> </p>
