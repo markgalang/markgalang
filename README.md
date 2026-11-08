@@ -1,39 +1,72 @@
-# Mark Galang — Software Engineer
+# Mark Galang
+### Software Engineer
 
-Responsive personal portfolio: React 18, Vite, plain CSS. No UI framework or tracking scripts. Original project screenshots and image assets are preserved.
+Building reliable software across applications, cloud infrastructure and AI.
 
-## Local development
+Based in **Clifton, New Jersey** · Currently at **JPMorganChase**
 
-Requires Node.js 22 LTS and npm. Use `nvm use` to select the version pinned in `.nvmrc`.
+**[Explore my portfolio ↗](https://markgalang.netlify.app/)** — experience, technical skills and selected work.
 
-```sh
-npm ci
-npm start
-```
+---
 
-The development server prints its local URL. To choose a port: `npm start -- --port 4173`.
+## Tech stack
 
-## Checks and production preview
+**Languages**
 
-```sh
-npm test
-npm run build
-npm run preview -- --port 4173
-npm audit
-```
+Java · TypeScript · JavaScript · Python
 
-The production output is **build/**, preserving the previous Create React App publish directory. Netlify build command: `CI=false npm run build`; publish directory: `build`. `netlify.toml` pins Node.js 22 for Netlify builds and preserves the existing build command and publish directory. This overrides the inherited Node.js 12 runtime that cannot run Vite. No redirect rules or account settings are changed. No deployment is performed by these scripts.
+**Frontend**
 
-## Editing content
+React · Redux · Vue · Material UI · Tailwind CSS · Sass · Bulma
 
-- `src/data.js`: grouped skills, dated experience, personal project descriptions and verified screenshots.
-- `src/App.jsx`: accessible navigation, sections, disclosure-based project overviews and contact form.
-- `src/styles.css`: responsive editorial theme and reduced-motion-aware transitions.
-- `index.html`: SEO metadata and canonical URL.
-- `public/portfolio-social.png`: social-sharing image.
+**Backend & data**
 
-The existing public Formspree endpoint is retained. Tests mock all contact requests; do not submit live test messages without permission. Name, email and message are sent only when a visitor submits the form. A honeypot, native validation, duplicate-send prevention, 15-second timeout, persistent status and direct-email fallback are included. No phone number or downloadable resume is published.
+Spring Boot · Node.js · Postgres · MySQL · MongoDB · NoSQL
 
-Scroll reveals progressively enhance already-visible content using IntersectionObserver. Browsers without it, and people preferring reduced motion, get static visible content. Navigation and project disclosures are keyboard accessible. Manual viewport and assistive-technology review remains part of release checks.
+**AWS & cloud**
 
-Legacy CRA, Redux, Bootstrap, Material UI and carousel components were replaced rather than retained as unused dependencies. Public project screenshots and legacy image assets remain in place; no third-party imagery or font license changes were introduced.
+ECS · Lambda · EKS · SQS · Glue · CloudFormation
+
+**DevOps & streaming**
+
+Docker · Kubernetes · CI/CD · Kafka
+
+**AI & quality**
+
+AI agents · Retrieval-augmented generation (RAG) · JUnit · Jest · TDD
+
+Unit, integration, end-to-end and performance testing
+
+## Experience
+
+### JPMorganChase
+**Software Engineer** · Feb 2023–present
+
+- Developing cloud microservices with Java, TypeScript and Python.
+- Contributing to AWS migration and reliable application delivery.
+- Building internal AI / RAG tooling and automated tests.
+
+### PDAX
+**Full-Stack Engineer** · Apr 2022–Jan 2023
+
+- Built investment microservices with Node.js and TypeScript.
+- Worked with CI/CD pipelines, Jest and test-driven development.
+
+### Twist Resources
+**Agile Software Engineer** · Feb 2021–Apr 2022
+
+- Developed Node.js APIs and React / TypeScript integrations.
+- Applied test-driven development in an agile environment.
+
+## Selected projects
+
+- **That's My Shift** — Employee management for schedules, leave, projects and team coordination. Built with Node.js, React and MongoDB.
+- **iPark** — Parking management with advance reservations and online payment integration. Built with Node.js and React.
+
+[Project overviews & screenshots ↗](https://markgalang.netlify.app/#work)
+
+---
+
+**Have a project or opportunity in mind?** [Let’s connect through my portfolio ↗](https://markgalang.netlify.app/#contact).
+
+<sub>This repository also powers my portfolio website. Setup, testing and build instructions: [Development guide](docs/DEVELOPMENT.md).</sub>
