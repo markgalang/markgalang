@@ -4,7 +4,7 @@ Responsive personal portfolio: React 18, Vite, plain CSS. No UI framework or tra
 
 ## Local development
 
-Requires Node.js 20.19+ and npm.
+Requires Node.js 22 LTS and npm. Use `nvm use` to select the version pinned in `.nvmrc`.
 
 ```sh
 npm ci
@@ -22,7 +22,7 @@ npm run preview -- --port 4173
 npm audit
 ```
 
-The production output is **build/**, preserving the previous Create React App publish directory. Netlify build command: `npm run build`; publish directory: `build`. Use a supported Node version (20.19+). Repository changes do not require changing Netlify settings; confirm existing settings before publishing. No deployment is performed by these scripts.
+The production output is **build/**, preserving the previous Create React App publish directory. Netlify build command: `CI=false npm run build`; publish directory: `build`. `netlify.toml` pins Node.js 22 for Netlify builds and preserves the existing build command and publish directory. This overrides the inherited Node.js 12 runtime that cannot run Vite. No redirect rules or account settings are changed. No deployment is performed by these scripts.
 
 ## Editing content
 
